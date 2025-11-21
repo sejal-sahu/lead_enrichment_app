@@ -90,7 +90,7 @@ This ensures safe parsing via `json.loads()`.
 
 ## 4. Setup & Run Instructions
 
-### **4.1 Requirements**
+### **4.1 Requirements and Installation**
 - Python 3.11+
 - Google Gemini API key
 - Packages:
@@ -114,8 +114,7 @@ export GEMINI_API_KEY="your-gemini-key"
 
 ```
 
-### **4.2 Requirements**
-## 4.2 Run the Script
+### **4.2 Run the Script**
 
 ```bash
 python main.py
