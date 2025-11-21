@@ -121,11 +121,11 @@ export GEMINI_API_KEY="your-gemini-key"
 ```
 
 ### **4.2 Run the Script**
-
+- Navigate to the src directory
 ```bash
 cd src
 ```
-
+- Run the fast api app
 ```bash
 uvicorn api:app --reload
 ```
