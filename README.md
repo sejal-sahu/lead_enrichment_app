@@ -98,27 +98,40 @@ This ensures safe parsing via `json.loads()`.
   - google-genai  
   - python-dotenv (optional)
 
-Install dependencies:
+Clone the repository, navigate to the root of the directory and run the following bash commands
 
+- Create a virtual environment
 ```bash
-pip install pandas python-dotenv
+python3 -m venv .venv
 ```
 
+- Activate the virtual environment
 ```bash
-pip install google-generativeai
+source .venv/bin/activate
 ```
-set the GEMINI_API_KEY
 
+- Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+- set the GEMINI_API_KEY
 ```bash
 export GEMINI_API_KEY="your-gemini-key"
-
 ```
 
 ### **4.2 Run the Script**
 
 ```bash
-python main.py
+cd src
 ```
+
+```bash
+uvicorn api:app --reload
+```
+- Open the url http://localhost:8000/docs
+- upload the file and download the generated json file
+
 
 ## 5. Future Improvements
 

@@ -1,0 +1,101 @@
+[
+    {
+        "email": "email",
+        "job_title": "job_title",
+        "comment": "comment",
+        "urgency": "High",
+        "persona_type": "Decision Maker",
+        "summary": "The user needs to improve order management efficiency and is available for a technical deep dive next week.",
+        "assigned_team": "Strategic Sales"
+    },
+    {
+        "email": "carla.dunn@globaltech.com",
+        "job_title": "Chief Information Officer",
+        "comment": "We need to improve our order management efficiency. My team is available for a technical deep dive next week.",
+        "urgency": "High",
+        "persona_type": "Decision Maker",
+        "summary": "The user needs to improve order management efficiency and is available for a technical deep dive next week.",
+        "assigned_team": "Strategic Sales"
+    },
+    {
+        "email": "david.lee@innovateinc.com",
+        "job_title": "Senior Process Analyst",
+        "comment": "My manager asked me to find a solution for mapping our accounts payable process. We are on SAP S/4HANA and need a demo ASAP.",
+        "urgency": "High",
+        "persona_type": "Practitioner",
+        "summary": "The Senior Process Analyst needs to find a solution for mapping accounts payable processes on SAP S/4HANA and requires a demo ASAP.",
+        "assigned_team": "Enterprise Sales"
+    },
+    {
+        "email": "sandra.p@acmecorp.com",
+        "job_title": "Marketing Manager",
+        "comment": "Just exploring process mining tools and wanted to understand your pricing and features compared to competitors.",
+        "urgency": "Medium",
+        "persona_type": "Decision Maker",
+        "summary": "The user is exploring process mining tools and wants to understand pricing and features for competitive comparison.",
+        "assigned_team": "Sales Development"
+    },
+    {
+        "email": "ben.carter@university.edu",
+        "job_title": "Data Science Student",
+        "comment": "I'm a student working on a project about process intelligence and would love to get a demo of your product for my research paper.",
+        "urgency": "Low",
+        "persona_type": "Other",
+        "summary": "A student working on a project about process intelligence is requesting a demo for their research paper.",
+        "assigned_team": "Nurture Campaign"
+    },
+    {
+        "email": "frank.white@midsizebiz.com",
+        "job_title": "Operations Director",
+        "comment": "Saw your ad. Looks interesting. Tell me more.",
+        "urgency": "Medium",
+        "persona_type": "Decision Maker",
+        "summary": "The user saw an ad, finds it interesting, and is requesting more information.",
+        "assigned_team": "Sales Development"
+    },
+    {
+        "email": "ana.gomez@examplecorp.com",
+        "job_title": "VP of Procurement",
+        "comment": "Hi, we are evaluating process mining solutions to optimize our procure-to-pay cycle. We have over 5000 employees and use SAP. Can someone from sales contact us?",
+        "urgency": "High",
+        "persona_type": "Decision Maker",
+        "summary": "The user, a VP of Procurement at a company with over 5000 employees using SAP, is evaluating process mining solutions to optimize their procure-to-pay cycle and requests sales contact.",
+        "assigned_team": "Strategic Sales"
+    },
+    {
+        "email": "emily.wong@techsolutions.io",
+        "job_title": "IT Systems Engineer",
+        "comment": "We are planning our budget for next year and are considering a process mining initiative. Could you send over some case studies for the manufacturing industry?",
+        "urgency": "Medium",
+        "persona_type": "Practitioner",
+        "summary": "The user is planning their budget for next year, considering a process mining initiative, and requests manufacturing industry case studies.",
+        "assigned_team": "Sales Development"
+    },
+    {
+        "email": "mark.j@regionalbank.com",
+        "job_title": "Business Analyst",
+        "comment": "How does your software connect to custom-built CRM systems? We're looking into improving our customer journey process.",
+        "urgency": "Medium",
+        "persona_type": "Practitioner",
+        "summary": "The user is exploring how the software integrates with custom CRM systems to improve their customer journey process.",
+        "assigned_team": "Sales Development"
+    },
+    {
+        "email": "lisa.chen@healthsys.org",
+        "job_title": "Head of Patient Services",
+        "comment": "Our patient intake process has major bottlenecks. We need a way to visualize and fix them. Urgently looking for a solution.",
+        "urgency": "High",
+        "persona_type": "Decision Maker",
+        "summary": "The user urgently needs a solution to visualize and fix major bottlenecks in their patient intake process.",
+        "assigned_team": "Strategic Sales"
+    },
+    {
+        "email": "no-reply@test.com",
+        "job_title": "Consultant",
+        "comment": "Info.",
+        "urgency": "Medium",
+        "persona_type": "Practitioner",
+        "summary": "The user, identified as a consultant, is seeking general information.",
+        "assigned_team": "Sales Development"
+    }
+]

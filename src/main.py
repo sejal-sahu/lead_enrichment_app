@@ -126,10 +126,12 @@ def assign_team(urgency, persona_type):
     return "Nurture Campaign"
 
 
-def main():
+def process_file(input_file="inputs/leads.csv", output_path="outputs/output_enriched_leads.json"):
+    """
+    Function to process input csv files and return output enriched json file.
+    """
 
-    input_file = "leads.csv"
-    output_file = "leads_clean.csv"
+    output_file="inputs/leads_clean.csv"
     clean_csv_file(input_file, output_file)
 
     df = pd.read_csv(output_file, header=None, names=["email", "job_title", "comment"])
@@ -155,14 +157,14 @@ def main():
 
 
     # Write Output JSON
-    with open("output_enriched_leads.json", "w") as f:
+    with open(output_path, "w") as f:
         json.dump(output_rows, f, indent=4)
 
     print("Processing complete. Output saved to output_enriched_leads.json")
 
 
 if __name__ == '__main__':
-    main()
+    process_file()
 
 
 
